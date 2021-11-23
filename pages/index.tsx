@@ -29,6 +29,12 @@ const ProductsPage: NextPage<Props> = ({ products }) => {
           </a>
         </Link>
       ))}
+
+      <p>
+        <Link href="/hot">
+          <a>Show Hot</a>
+        </Link>
+      </p>
     </main>
   );
 };
